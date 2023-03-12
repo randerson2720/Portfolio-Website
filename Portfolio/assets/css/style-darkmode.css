@@ -863,6 +863,12 @@ a:hover {
   background-color: #0078ff;
 }
 
+#my-image{
+  position: relative;
+  top: -30px;
+  border-radius: 50%;
+}
+
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
@@ -920,11 +926,11 @@ a:hover {
   width: 100px;
   padding: 5px;
   margin : 0 3px;
-  background-color: #000000;
+  background-color: #ffffff;
   outline: none;
   border: 1px solid #0078ff;
   box-shadow: 2px 2px 2px #000000;
-  color: #ffffff;
+  color: #000000;
   font-weight: bold;
 }
 
