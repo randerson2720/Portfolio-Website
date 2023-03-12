@@ -861,6 +861,22 @@ a:hover {
   background-color: #0078ff;
 }
 
+#about, #how-it-works, #why-use {
+  padding: 50px 0;
+}
+
+#about h2, #how-it-works h2, #why-use h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+#about p, #how-it-works p, #why-use p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
@@ -1449,7 +1465,7 @@ footer {
   text-align: center;
   color: #fff;
   padding: 25px 0;
-  background: #0062d3;
+  background: #1B1B1B;
 }
 
 footer .copyright {
