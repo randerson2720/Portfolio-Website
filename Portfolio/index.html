@@ -73,9 +73,6 @@
                 <div class="col-md-6">
                   <div class="row">
                     <div class="col-sm-6 col-md-5">
-                      <div class="about-img">
-                        <img src="assets/img/testimonial-2.jpg" class="img-fluid rounded b-shadow-a" alt="">
-                      </div>
                     </div>
                     <div class="col-sm-6 col-md-7">
                       <div class="about-info">
@@ -140,10 +137,13 @@
     </section><!-- End About Section -->
 
     <!-- ======= Resume Section ====== -->
-    <section id="resume" class="paralax-mf footer-paralax bg-image sect-mt4 route">
+    <section id="resume">
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
+            <div class="box-shadow-full">
+              <div class="row">
+                  <div class="row">
             <div class="title-box text-center">
               <h3 class="title-a">
                 Resume
@@ -164,7 +164,7 @@
               <div class="resume-item">
                 <h4>Bachelor of Computer Science</h4>
                 <h5>Lewis University</h5>
-                <p><em>Graduation date of December 2023</em></p>
+                <p class="date"><em>Graduation date of December 2023</em></p>
                 <p>As a Bachelor of Computer Science student at Lewis University, 
                   I have gained a solid foundation in computer programming, software development, and computer systems. 
                   Through coursework, group projects, and personal projects, I have developed skills in programming languages such as Java, Python, and C/C++, 
@@ -174,7 +174,7 @@
               <div class="resume-item">
                 <h4>Bachelor of Computer Engineering</h4>
                 <h5>Lewis University</h5>
-                <p><em>Graduation date of December 2023</em></p>
+                <p class="date"><em>Graduation date of December 2023</em></p>
                 <p>As a Bachelor of Computer Engineering student at Lewis University, 
                   I have gained extensive knowledge in computer hardware, software, and electronics. 
                   Throughout my coursework, I have learned how to design, develop, and test computer systems, circuits, and embedded systems. 
@@ -187,7 +187,7 @@
               <div class="resume-item">
                 <h4>Associates of Science</h4>
                 <h5>Moraine Valley Community College</h5>
-                <p><em>Graduation date of December 2020</em></p>
+                <p class="date"><em>Graduation date of December 2020</em></p>
                 <p>As an Associates of Science student at Moraine Valley Community College, 
                   I completed all my general education courses and gained a solid foundation in various disciplines such as Mathematics, English, Science, and Social Sciences. 
                   My time at Moraine Valley helped me in preparing for my transfer to a 4-year college to pursue my Bachelor's degree in Computer Science and Computer Engineering. 
@@ -206,7 +206,7 @@
               <div class="resume-item">
                 <h4>Research Assistant - Software Development</h4>
                 <h5>Lewis University</h5>
-                <p><em>August 2022 - Present</em></p>
+                <p class="date"><em>August 2022 - Present</em></p>
                 <p>As a Research Assistant for Software Development at Lewis University, 
                   I played a key role in the development of a smart classroom system. 
                   My responsibilities included working on the codebase that enabled the system to detect motion, face, and voice. 
@@ -216,7 +216,7 @@
               <div class="resume-item">
                 <h4>Technology Camp Mentor</h4>
                 <h5>Lewis University</h5>
-                <p><em>May 2022 - August 2022</em></p>
+                <p class="date"><em>May 2022 - August 2022</em></p>
                 <p>As a Technology Camp Mentor at Lewis University, my primary responsibility was to teach aspiring STEM high school students in coding, engineering, and robotics. 
                   I introduced the students to programming concepts using block-based programming languages like Snap and Python. 
                   Additionally, I guided them in creating embedded systems using Raspberry Pi, and helped them in designing and building robots that could perform multiple tasks.
@@ -227,15 +227,16 @@
               <div class="resume-item">
                 <h4>Senior Teller</h4>
                 <h5>Huntington Bank</h5>
-                <p><em>September 2018 - November 2021</em></p>
+                <p class="date"><em>September 2018 - November 2021</em></p>
                 <p>As a Senior Teller at Huntington Bank, I was responsible for performing various banking transactions, 
                   including deposits, withdrawals, and transfers, as well as identifying customer needs and promoting the bank's services. 
                   I also provided guidance and training to junior tellers, ensuring that they were following established protocols and delivering excellent customer service. 
                   Through this experience, I developed excellent customer service and communication skills, as well as a strong understanding of banking operations and regulations. </p></p>
               </div>
             </div>
-            <a href="assets/resume/AndersonResume.pdf" download>
-              <button>Download Resume</button>
+            <a id="resume-button" href="assets/resume/AndersonResume.pdf" download>
+              <!--<button>Download Resume</button> -->
+              Download Resume
             </a>
           </div>
         </div>
@@ -247,6 +248,9 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
+            <div class="box-shadow-full">
+              <div class="row">
+                  <div class="row">
             <div class="title-box text-center">
               <h3 class="title-a">
                 Portfolio

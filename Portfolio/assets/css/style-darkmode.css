@@ -145,7 +145,7 @@ a:hover {
 /*--/ Title s /--*/
 .title-s {
   font-weight: 600;
-  color: #1e1e1e;
+  color: #0078ff;
   font-size: 1.1rem;
 }
 
@@ -164,7 +164,7 @@ a:hover {
 
 .subtitle-a {
   text-decoration: none;
-  color: #4e4e4e;
+  color: #ffffff;
 }
 
 .line-mf {
@@ -182,6 +182,7 @@ a:hover {
 .title-left {
   font-size: 2rem;
   position: relative;
+  color: #ffffff;
 }
 
 .title-left:before {
@@ -201,7 +202,7 @@ a:hover {
 .box-shadow-full {
   padding: 3rem 1.25rem;
   position: relative;
-  background-color: #4e4e4e;
+  background-color: #242424;
   margin-bottom: 3rem;
   z-index: 2;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
@@ -231,6 +232,7 @@ a:hover {
   margin: 0 15px 0 0;
   box-shadow: 0 0 0 3px #0078ff;
   transition: all 500ms ease;
+  background-color: #ffffff;
 }
 
 .socials .ico-circle:hover {
@@ -363,7 +365,7 @@ a:hover {
   opacity: 1;
 }
 
-/*------/ Prelaoder /------*/
+/*------/ Preloader /------*/
 #preloader {
   position: fixed;
   top: 0;
@@ -846,7 +848,7 @@ a:hover {
 }
 
 .skill-mf span {
-  color: #000000;
+  color: #ffffff;
 }
 
 .skill-mf .progress {
@@ -865,8 +867,8 @@ a:hover {
 # Resume
 --------------------------------------------------------------*/
 #resume {
-  background-color: #222222;
-  padding: 2rem 1.5rem;
+  background-color: #242424;
+  padding: 4rem 1.5rem;
   margin-top: -1.5rem;
   margin-right: -1.5rem;
   margin-left: -1.5rem;;
@@ -899,25 +901,37 @@ a:hover {
 
 #resume {
   position: relative; /* Make the container a positioning context */
+  background-color:#000000;
+}
+
+.date {
+  color:#0078ff
 }
 
 /* Resume Button */
-
-#resume a {
+#resume-button {
   position: absolute;
   left: 50%; /* Set the left edge of the button to the middle of the container */
   transform: translateX(-50%); /* Move the button to the left by half of its width */
-  bottom: 1rem; /* Set the distance from the bottom edge of the container */
+  bottom: .5rem; /* Set the distance from the bottom edge of the container */
   margin: 0; /* Remove the top and bottom margin */
+  text-align: center;
+  text-decoration: none;
+  width: 100px;
+  padding: 5px;
+  margin : 0 3px;
+  background-color: #000000;
+  outline: none;
+  border: 1px solid #0078ff;
+  box-shadow: 2px 2px 2px #000000;
+  color: #ffffff;
+  font-weight: bold;
 }
 
-#resume a {
-  display: inline-block;
-  margin-top: 2rem;
-  background-color: #000000;
-  color: #ffffff;
-  text-decoration: none;
-  border-radius: 5px;
+#resume-button:hover {
+  background-color: #0078ff;
+  color: #000000;
+  border: 1px solid #ffffff
 }
 
 /*--------------------------------------------------------------
@@ -1040,77 +1054,6 @@ a:hover {
 }
 
 /*--------------------------------------------------------------
-# Testimonials
---------------------------------------------------------------*/
-.testimonial-box {
-  color: #fff;
-  text-align: center;
-}
-
-.testimonial-box .author-test {
-  margin-top: 1rem;
-}
-
-.testimonial-box .author-test img {
-  margin: 0 auto;
-}
-
-.testimonial-box .author {
-  color: #fff;
-  text-transform: uppercase;
-  font-weight: 600;
-  margin: 1rem 0;
-  display: block;
-  font-size: 1.4rem;
-}
-
-.testimonial-box .comit {
-  font-size: 2rem;
-  color: #0078ff;
-  background-color: #fff;
-  width: 52px;
-  height: 52px;
-  display: block;
-  margin: 0 auto;
-  border-radius: 50%;
-  line-height: 1.6;
-}
-
-@media (min-width: 768px) {
-  .testimonial-box .description {
-    padding: 0 5rem;
-  }
-}
-
-@media (min-width: 992px) {
-  .testimonial-box .description {
-    padding: 0 8rem;
-  }
-}
-
-@media (min-width: 1200px) {
-  .testimonial-box .description {
-    padding: 0 13rem;
-  }
-}
-
-.swiper-pagination {
-  margin-top: 20px;
-  position: relative;
-}
-
-.swiper-pagination .swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
-  background-color: rgba(255, 255, 255, 0.4);
-  opacity: 1;
-}
-
-.swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #fff;
-}
-
-/*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
 .footer-paralax {
@@ -1206,126 +1149,6 @@ a:hover {
   100% {
     transform: rotate(360deg);
   }
-}
-
-/*--------------------------------------------------------------
-# Blog
---------------------------------------------------------------*/
-@media (min-width: 767px) {
-  .card-blog {
-    margin-bottom: 3rem;
-  }
-}
-
-.card-blog .card-body {
-  position: relative;
-}
-
-.card-blog .card-category-box {
-  position: absolute;
-  text-align: center;
-  top: -16px;
-  left: 15px;
-  right: 15px;
-  line-height: 25px;
-  overflow: hidden;
-}
-
-.card-blog .card-category {
-  display: inline-block;
-  color: #fff;
-  padding: 0 15px 5px;
-  overflow: hidden;
-  background-color: #0078ff;
-  border-radius: 4px;
-}
-
-.card-blog .card-category .category {
-  color: #fff;
-  display: inline-block;
-  text-transform: uppercase;
-  font-size: 0.7rem;
-  letter-spacing: 0.1px;
-  margin-bottom: 0;
-}
-
-.card-blog .card-title {
-  font-size: 1.3rem;
-  margin-top: 0.6rem;
-}
-
-.card-blog .card-description {
-  color: #4e4e4e;
-}
-
-.card-blog .post-author {
-  display: inline-block;
-}
-
-.card-blog .post-date {
-  color: #4e4e4e;
-  display: inline-block;
-  float: right;
-}
-
-/*--------------------------------------------------------------
-# Blog Single
---------------------------------------------------------------*/
-.post-box,
-.form-comments,
-.box-comments,
-.widget-sidebar {
-  padding: 2rem;
-  background-color: #fff;
-  margin-bottom: 3rem;
-}
-
-@media (min-width: 768px) {
-
-  .post-box,
-  .form-comments,
-  .box-comments,
-  .widget-sidebar {
-    padding: 3rem;
-  }
-}
-
-.blog-wrapper .article-title {
-  font-size: 1.5rem;
-}
-
-@media (min-width: 768px) {
-  .blog-wrapper .article-title {
-    font-size: 1.9rem;
-  }
-}
-
-.blog-wrapper .post-meta {
-  margin: 1rem 0;
-}
-
-.blog-wrapper .post-meta ul {
-  border-left: 4px solid #0078ff;
-  margin-top: 1rem;
-}
-
-.blog-wrapper .post-meta ul li {
-  display: inline-block;
-  margin-left: 15px;
-}
-
-.blog-wrapper .post-meta ul a {
-  color: #0078ff;
-}
-
-.blog-wrapper .post-meta ul span {
-  color: #1e1e1e;
-}
-
-.blog-wrapper .blockquote {
-  border-left: 4px solid #0078ff;
-  padding: 18px;
-  font-style: italic;
 }
 
 /*------/ Comments /------*/
@@ -1430,7 +1253,7 @@ footer {
   text-align: center;
   color: #fff;
   padding: 25px 0;
-  background: #0062d3;
+  background: #1a1a1a;
 }
 
 footer .copyright {
