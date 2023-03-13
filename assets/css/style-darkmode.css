@@ -1150,6 +1150,8 @@ a:hover {
   }
 }
 
+
+
 /*------/ Comments /------*/
 .box-comments .list-comments li {
   padding-bottom: 40px;
@@ -1253,6 +1255,10 @@ footer {
   color: #fff;
   padding: 25px 0;
   background: #1a1a1a;
+}
+
+footer a:hover {
+  color:#ffffff !important
 }
 
 footer .copyright {

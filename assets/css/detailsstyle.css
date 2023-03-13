@@ -1479,3 +1479,7 @@ footer .credits {
 footer .credits a {
   color: #fff;
 }
+
+footer a:hover {
+  color:#ffffff !important
+}
