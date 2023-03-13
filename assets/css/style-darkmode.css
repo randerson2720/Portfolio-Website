@@ -16,6 +16,10 @@ h6 {
   color: #1e1e1e;
 }
 
+.formspree-link:hover {
+  color: #ffffff !important;
+}
+
 a {
   color: #1e1e1e;
   text-decoration: none;
@@ -1273,6 +1277,3 @@ footer .credits a {
   color: #fff;
 }
 
-.formspree-link:hover {
-  color: #ffffff !important;
-}
