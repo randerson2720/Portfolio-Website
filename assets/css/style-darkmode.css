@@ -1150,9 +1150,7 @@ a:hover {
   }
 }
 
-.formspree-link:hover {
-  color: #ffffff !important;
-}
+
 
 /*------/ Comments /------*/
 .box-comments .list-comments li {
@@ -1273,4 +1271,8 @@ footer .credits {
 
 footer .credits a {
   color: #fff;
+}
+
+.formspree-link:hover {
+  color: #ffffff !important;
 }
